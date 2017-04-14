@@ -1,0 +1,128 @@
+#!/bin/bash
+#
+# script: updateiCal
+# author: Mark Foley - mfoley(at)novatec-inc.com - Novatec Software Engineering, Inc.
+#   date: 2016-01-12
+#    $Id: $
+#This bash script scans the Thunderbird 38.4.0, Lightning 4.0.4.1
+#calendar database for events and creates an .ics file.
+# $log: $
+DATABASE="/home/ron/.thunderbird/riscnis1.default/calendar-data/local.sqlite"
+FMT="%Y%m%dT%H%M%SZ"
+FMT2="%Y%m%dT%H%M%S"
+TZADJ=18000
+# The original published .ics file seems to not have lines longer than 70 character.
+# This function chop lines into 70 characters or less. The tilde (~) character is
+# assumed to be a newline substitute and is replaced by a litteral "\n" after splitting.
+function emit70
+{
+    t=`echo "$1"`
+    while [ ${#t} -gt 0 ]
+    do
+       if [ ${#1} -ne ${#t} ]; then echo -n " "; fi
+       echo "$t" | cut -c1-70 | sed 's/~/\\n/g'
+       t=`echo "$t" | cut -c71-`
+    done
+}
+# The following is copied directly from the originally published .ics file.
+cat <<eof <="" begin:daylight="" begin:standard="" begin:vcalendar="" begin:vtimezone="" calendar="" dtstart:19700308t020000="" dtstart:19701101t020000="" en="" end:daylight="" end:standard="" end:vtimezone="" eof="" method:publish="" mozilla="" mozilla.org="" new_york="" nonsgml="" pre="" prodid:-="" rrule:freq="YEARLY;BYDAY=2SU;BYMONTH=3" tzid:america="" tzname:edt="" tzname:est="" tzoffsetfrom:-0400="" tzoffsetfrom:-0500="" tzoffsetto:-0400="" tzoffsetto:-0500="" v1.1="" version:2.0="">
+# GET EVENTS
+# Note that this query does not take into account the possibility of multiple
+# calendars stored in the local.sqlite database. Possibly need to first
+# 'select distinct cal_id' then loop through those.
+
+sqlite3 "$DATABASE"  \
+"select 
+ max(case when prop.key = 'DESCRIPTION' then replace(prop.value,char(10),'~') else null end) as description,
+ max(case when prop.key = 'LOCATION' then replace(prop.value,char(10),'~') else null end) as location,
+ max(case when prop.key = 'SEQUENCE' then replace(prop.value,char(10),'~') else null end) as sequence,
+ max(case when prop.key = 'TRANSP' then replace(prop.value,char(10),'~') else null end) as transp,
+ max(case when prop.key = 'URL' then replace(prop.value,char(10),'~') else null end) as url, 
+ evnt.cal_id, evnt.id, datetime(evnt.time_created/1000000, 'unixepoch') as time_created, datetime(evnt.last_modified/1000000, 'unixepoch') as last_modified, 
+ evnt.title, evnt.priority, evnt.privacy, datetime(evnt.event_start/1000000, 'unixepoch') as event_start, datetime(evnt.event_end/1000000, 'unixepoch') as event_end,
+ evnt.event_stamp, evnt.event_start_tz, evnt.event_end_tz
+ from cal_events evnt join cal_properties prop on evnt.cal_id = prop.cal_id and evnt.id = prop.item_id
+group by 
+ evnt.cal_id, evnt.id, datetime(evnt.time_created/1000000, 'unixepoch'), datetime(evnt.last_modified/1000000, 'unixepoch'),
+ evnt.title, evnt.priority, evnt.privacy, datetime(evnt.event_start/1000000, 'unixepoch'), datetime(evnt.event_end/1000000, 'unixepoch'),
+ evnt.event_stamp, evnt.event_start_tz, evnt.event_end_tz
+ order by 13,6,7;" | \
+while read event
+do
+   x=`echo $event`
+   if [ -z "$x" ]; then continue; fi   # skip blank lines, if any
+
+   # icalString is multi-line. Get separately to make parsing easier
+
+   cal_id=`echo "$event" | cut "-d|" -f1`
+   id=`echo "$event" | cut "-d|" -f2`
+
+   icalString=`sqlite3 "$DATABASE" \
+   "select icalString from cal_alarms where cal_id = '$cal_id' and item_id = '$id';"`
+
+   time_created=`echo $event | cut "-d|" -f3 | cut -c1-10`
+   time_created=$[ $time_created + $TZADJ ]
+   time_created=`date -d@$time_created +$FMT`
+
+   last_modified=`echo "$event" | cut "-d|" -f4 | cut -c1-10`
+   last_modified=$[ $last_modified + $TZADJ ]
+   last_modified=`date -d@$last_modified +$FMT`
+
+   title=`echo "$event" | cut "-d|" -f5`
+   priority=`echo "$event" | cut "-d|" -f6`
+   privacy=`echo "$event" | cut "-d|" -f7`
+   event_start=`echo "$event" | cut "-d|" -f8 | cut -c1-10`
+   event_start=`date -d@$event_start +$FMT2`
+   event_end=`echo "$event" | cut "-d|" -f9 | cut -c1-10`
+   event_end=`date -d@$event_end +$FMT2`
+
+   event_stamp=`echo "$event" | cut "-d|" -f10 | cut -c1-10`
+   event_stamp=$[ $event_stamp + $TZADJ ]
+   event_stamp=`date -d@$event_stamp +$FMT`
+
+   event_start_tz=`echo "$event" | cut "-d|" -f11`
+   event_end_tz=`echo "$event" | cut "-d|" -f12`
+
+   cat << EOF
+BEGIN:VEVENT
+CREATED:$time_created
+LAST_MODIFIED:$last_modified
+DTSTAMP:$event_stamp
+EOF
+
+   # Split up UIDs longer than 70 characters (could have used emit70() function)
+
+   echo UID:`echo $id | cut -c1-70`
+   if [ ${#id} -gt 70 ]; then echo " "`echo $id | cut -c71-`; fi
+
+   echo "SUMMARY:$title"
+
+   if [ -n "$priority" ]; then echo "PRIORITY:$priority"; fi
+   echo "DTSTART;TZID=$event_start_tz:$event_start"
+   echo "DTEND;TZID=$event_end_tz:$event_end"
+
+   # Get additional calendar properties (LOCATION, PRIVACY, etc.)
+   # Some have multi-line entries such as X-ALT-DESC. Substitute
+   # tilde (~) for newline (char(10)) to get everything on one
+   # line. emit70() will put litteral "\n" back in.
+
+   sqlite3 "$DATABASE" "select key, replace(value,char(10),'~')
+       from cal_properties where cal_id = '$cal_id' and item_id = '$id';" | \
+   while read xtra
+   do
+       k=`echo $xtra | cut "-d|" -f1`
+       v=`echo $xtra | cut "-d|" -f2-`
+       x=`echo $v`
+
+       if [ -n "$x" ]; then emit70 "$k:$v"; fi
+   done
+
+   x=`echo $icalString`
+   if [ -n "$x" ]; then echo "$icalString"; fi
+
+   echo END:VEVENT
+done
+
+echo END:VCALENDAR
+exit
+</eof>

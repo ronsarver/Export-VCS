@@ -1,0 +1,1690 @@
+BEGIN:VCALENDAR
+PRODID:-//Mozilla.org/NONSGML Mozilla Calendar V1.1//EN
+VERSION:2.0
+BEGIN:VTIMEZONE
+TZID:America/Denver
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0700
+TZOFFSETTO:-0600
+TZNAME:MDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0700
+TZNAME:MST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VTIMEZONE
+TZID:America/Chicago
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0600
+TZOFFSETTO:-0500
+TZNAME:CDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYDAY=2SU;BYMONTH=3
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0600
+TZNAME:CST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYDAY=1SU;BYMONTH=11
+END:STANDARD
+END:VTIMEZONE
+
+BEGIN:VEVENT
+CREATED:20160119T172049Z
+LAST-MODIFIED:20160119T172113Z
+DTSTAMP:20160119T172113Z
+UID:49541a79-4a1e-46a5-9ba7-9913fb2623d3
+SUMMARY:Dr Sean
+DTSTART;TZID=America/Chicago:20160122T104500
+DTEND;TZID=America/Chicago:20160122T114500
+TRANSP:OPAQUE
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160127T144713Z
+LAST-MODIFIED:20160127T144723Z
+DTSTAMP:20160127T144723Z
+UID:0c82aaf0-1e0f-4bec-b937-030ea14d62db
+SUMMARY:Dr Sean
+DTSTART;TZID=America/Chicago:20160219T100000
+DTEND;TZID=America/Chicago:20160219T110000
+TRANSP:OPAQUE
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160306T211735Z
+LAST-MODIFIED:20160306T211750Z
+DTSTAMP:20160306T211750Z
+UID:561bbb11-f9b7-4db9-abdb-27db55f2fe4f
+SUMMARY:Dr Sean
+DTSTART;TZID=America/Chicago:20160308T094500
+DTEND;TZID=America/Chicago:20160308T104500
+TRANSP:OPAQUE
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160308T195404Z
+LAST-MODIFIED:20160308T195428Z
+DTSTAMP:20160308T195428Z
+UID:b8649eef-218e-485e-9d45-d93d73cec250
+SUMMARY:Dr Sean
+DTSTART;TZID=America/Chicago:20160405T094500
+DTEND;TZID=America/Chicago:20160405T104500
+TRANSP:OPAQUE
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160310T153103Z
+LAST-MODIFIED:20160310T154125Z
+DTSTAMP:20160310T154125Z
+UID:spdr2uqfl84bvl5n8uv1cm8ri8@google.com
+SUMMARY:Discuss Differences
+STATUS:CONFIRMED
+ORGANIZER;CN=Matthew Woodings:mailto:matthew.woodings@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedules.
+ com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160310T160000Z
+DTEND:20160310T163000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=c3BkcjJ1cWZsODRidmw1bjh1djFjbThyaTggcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzMjbWF0dGhldy53b29kaW5nc0Bob3RzY2hlZHVsZXMuY29tODdhMDljNGRh
+ NGNmYWYzNjIwMTM4NDA3Njk5ZTEwMDA4YTNlY2JlMA&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160310T153103Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160316T174313Z
+LAST-MODIFIED:20160316T174356Z
+DTSTAMP:20160316T174356Z
+UID:4dk1280oi1klcr0ph2gj5unaec@google.com
+SUMMARY:NRR and the Warehouse/Qlik Reporting
+STATUS:CONFIRMED
+ORGANIZER;CN=Matthew Woodings:mailto:matthew.woodings@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=erin.beil@hotschedules.com;PARTSTAT=NEEDS-ACTION;CUT
+ YPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:erin.beil@hotsch
+ edules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160325T173000Z
+DTEND:20160325T183000Z
+DESCRIPTION:Erin\,  \n\nI would like to start the process of pulling NRR i
+ nto the reporting structure but need some background info.  A high level o
+ f what we do\, how we collect it\, and how we can categorize it (.e.g. tra
+ ining\, implementation\, PS etc.) will provide us the foundations required
+  to kick this phase off.\n\nThanks\,\n\nMatt\nView your event at https://w
+ ww.google.com/calendar/event?action=VIEW&eid=NGRrMTI4MG9pMWtsY3IwcGgyZ2o1d
+ W5hZWMgcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzMjbWF0dGhldy53b29kaW5nc0
+ Bob3RzY2hlZHVsZXMuY29tYjhhYjNhMWFiNzA1MzcyNGUzYTY5NTg0M2QwN2JkYTgzN2MzZTg3
+ NQ&ctz=America/Chicago&hl=en.
+LOCATION:Online
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160316T174314Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160324T203530Z
+LAST-MODIFIED:20160324T204430Z
+DTSTAMP:20160324T204430Z
+UID:aebdc3m3p1h7s8smhbfa5958g4@google.com
+SUMMARY:DW for Totango (Jitterbit integration)
+STATUS:CONFIRMED
+ORGANIZER;CN=Laura McDonough:mailto:laura.mcdonough@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Charles Bastian;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:charles.bastian@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160328T150000Z
+DTEND:20160328T153000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=YWViZGMzbTNwMWg3czhzbWhiZmE1OTU4ZzQgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzIjbGF1cmEubWNkb25vdWdoQGhvdHNjaGVkdWxlcy5jb21lZmQ3NzM5Mzhh
+ YTA5Y2QwNDJkNzhlYWUxZmRlMDQzMjU2NjdlYjc3&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160324T203531Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160329T230559Z
+LAST-MODIFIED:20160329T232608Z
+DTSTAMP:20160329T232608Z
+UID:8k3f20iu4p9csoe5bvtogckff0@google.com
+SUMMARY:Technologies to replace the cube
+STATUS:CONFIRMED
+ORGANIZER;CN=Dave Flynn:mailto:dave.flynn@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Dave Flynn;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;ROLE=
+ REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:dave.flynn@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160331T150000Z
+DTEND:20160331T160000Z
+DESCRIPTION:Sean wants to see what type of technologies could replace SSAS
+  within MX.\nView your event at https://www.google.com/calendar/event?acti
+ on=VIEW&eid=OGszZjIwaXU0cDljc29lNWJ2dG9nY2tmZjAgcm9uLnNhcnZlckBob3RzY2hlZH
+ VsZXMuY29t&tok=MjcjZGF2ZS5mbHlubkBob3RzY2hlZHVsZXMuY29tOGQ0NmUwYzk2NGU2NDV
+ jNGEyN2MyYWE5OTk5ODc1NmRiYzM4MmFhMw&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160329T230600Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160419T134902Z
+LAST-MODIFIED:20160419T143509Z
+DTSTAMP:20160419T143509Z
+UID:tj6bgq0hm5q27l5poe46k27nqc@google.com
+SUMMARY:Data Quality
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@redbookco
+ nnect.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160419T170000Z
+DTEND:20160419T173000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=dGo2YmdxMGhtNXEyN2w1cG9lNDZrMjducWMgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tOWFmYjRmNDNkY2Nk
+ NmFhNTQ3NjI5ZTY4NTVjMDQ0YzdmNjE3ZTFiYg&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160419T134903Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160422T200252Z
+LAST-MODIFIED:20160422T203708Z
+DTSTAMP:20160422T203708Z
+UID:vh74hjujvun9lihc3glb76gsk0@google.com
+SUMMARY:DW vs. Melissa Data
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matt.woodings@hotschedules.com
+ 
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160425T133000Z
+DTEND:20160425T143000Z
+DESCRIPTION:Hi Matt - I know Mondays are busy. Perhaps this is better poin
+ ted at Ron then. The data we loaded\, unfortunately doesn't match either M
+ elissa's data nor the DW. I haven't been able to then to get to any effect
+ ive analysis. This call is meant to trouble shoot that so we can keep this
+  moving.\nView your event at https://www.google.com/calendar/event?action=
+ VIEW&eid=dmg3NGhqdWp2dW45bGloYzNnbGI3NmdzazAgcm9uLnNhcnZlckBob3RzY2hlZHVsZ
+ XMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tZjA0NjYzMjdjYmM4NG
+ QwODVlZTVhNzAzMzVmMjVmYzk2NTE4ZjAzNQ&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160422T202459Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160425T220930Z
+LAST-MODIFIED:20160426T123144Z
+DTSTAMP:20160426T123144Z
+UID:6flrmajccbf4342eoga7d3jr30@google.com
+SUMMARY:Questions on churn calc
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160426T133000Z
+DTEND:20160426T143000Z
+DESCRIPTION:Hi - Sorry about the late notice\, but this is the only time t
+ hat works tomorrow. Hope you can make it. We really need to keep pushing t
+ his through.\n\nThanks much for you patience here.\n\n\n\nView your event 
+ at https://www.google.com/calendar/event?action=VIEW&eid=NmZscm1hamNjYmY0M
+ zQyZW9nYTdkM2pyMzAgcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjY2FybC5iZW
+ 5lZmllbEBob3RzY2hlZHVsZXMuY29tYjY1YWJkMzY3MDNlZjJiYzcxNWRiOWQ0ZTQzOGU4YTU5
+ MzcyNWMwYg&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160425T220931Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160427T201927Z
+LAST-MODIFIED:20160427T202333Z
+DTSTAMP:20160427T202333Z
+UID:n6jq4vtusbkrae1n5li2bgg6bk@google.com
+SUMMARY:Quick Austin Product/Dev/SaaS Ops Team standup
+STATUS:CONFIRMED
+ORGANIZER;CN=elizabeth.sartin@hotschedules.com:mailto:elizabeth.sartin@hot
+ schedules.com
+ATTENDEE;RSVP=TRUE;CN=QA (HS);PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;ROLE
+ =REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:qa@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=elizabeth.sartin@hotschedules.com;PARTSTAT=ACCEPTED;
+ CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:elizabeth.sar
+ tin@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=SaaS Operations Team;PARTSTAT=NEEDS-ACTION;CUTYPE=IN
+ DIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:saasopsteam@hotschedul
+ es.com
+ATTENDEE;RSVP=TRUE;CN=engineering;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:engineering@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=product (HS);PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:product@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160504T153000Z
+DTEND:20160504T160000Z
+DESCRIPTION:All:  Please join me Wednesday morning to share some team upda
+ tes with the group.  \n\n-Liz\nView your event at https://www.google.com/c
+ alendar/event?action=VIEW&eid=bjZqcTR2dHVzYmtyYWUxbjVsaTJiZ2c2Ymsgcm9uLnNh
+ cnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzMjZWxpemFiZXRoLnNhcnRpbkBob3RzY2hlZHVsZ
+ XMuY29tZmY4MDg2MTMzODYxZjBmMjE5MGZiODk1ZjdhMWE2ZmNhMWE2ZDU3NA&ctz=America/
+ Chicago&hl=en.
+LOCATION:Backyard conf. room
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160427T201930Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160507T025306Z
+LAST-MODIFIED:20160507T115333Z
+DTSTAMP:20160507T115333Z
+UID:00ean1nhub04ahpo1r7roeo8h4@google.com
+SUMMARY:DW and WhiteSpace Requirements
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@redbookco
+ nnect.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160509T133000Z
+DTEND:20160509T143000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=MDBlYW4xbmh1YjA0YWhwbzFyN3JvZW84aDQgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tNDczY2NjYTBjNzhi
+ ZWJmMzcyYWQ3OWU5Mjk2ZmZiOTQxM2E0ODJhMA&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:1
+X-MOZ-RECEIVED-DTSTAMP:20160507T025650Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160510T113556Z
+LAST-MODIFIED:20160510T113818Z
+DTSTAMP:20160510T113818Z
+UID:305e6b2i6eq45oe056krs38pt8@google.com
+SUMMARY:Sales CSM in DW Check In & Churn Plan
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@redbookco
+ nnect.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160510T170000Z
+DTEND:20160510T173000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=MzA1ZTZiMmk2ZXE0NW9lMDU2a3JzMzhwdDggcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tYWVhMWRmM2RlZDRl
+ ODRjNjMyNDliMGIxNmEyYTliMGMxMDcxNDJjNg&ctz=America/Chicago&hl=en.
+LOCATION:DW Check In & Churn Plan
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:1
+X-MOZ-RECEIVED-DTSTAMP:20160510T113701Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160519T214150Z
+LAST-MODIFIED:20160520T005124Z
+DTSTAMP:20160520T005124Z
+UID:v2kde4jaaprha75es2svq74a5o@google.com
+SUMMARY:MRR Subcategory Summit
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160524T133000Z
+DTEND:20160524T143000Z
+DESCRIPTION:Hi - As you're aware\, all the good work you've done is starti
+ ng to get out into the world. A world starved for data. BUT we're still st
+ uck - at least to my knowledge - without good Expansion/Upsell/Churn/New d
+ ata. I'm hoping you Melissa and Ron as the data Jedi and NS Nija\, you can
+  put your minds together and help definitively ID the problems and way for
+ ward. Then on this call\, let's decide what you need in terms of help or r
+ esources to get there. \nView your event at https://www.google.com/calenda
+ r/event?action=VIEW&eid=djJrZGU0amFhcHJoYTc1ZXMyc3ZxNzRhNW8gcm9uLnNhcnZlck
+ Bob3RzY2hlZHVsZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tZmF
+ mYTU4ZWEyZDQ4YjdkYzU5MjQxZDZmNzk5MGJmN2I1N2Q4YTRmZQ&ctz=America/Chicago&hl
+ =en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160519T214151Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160523T134555Z
+LAST-MODIFIED:20160523T140355Z
+DTSTAMP:20160523T140355Z
+UID:rf76c4kuh9hqeo2pscmo62pt9g@google.com
+SUMMARY:Discuss MX Churn/Expansion
+STATUS:CONFIRMED
+ORGANIZER;CN=Melissa Dragonu:mailto:melissa.dragonu@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedules.co
+ m
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160523T190000Z
+DTEND:20160523T193000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=cmY3NmM0a3VoOWhxZW8ycHNjbW82MnB0OWcgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzIjbWVsaXNzYS5kcmFnb251QGhvdHNjaGVkdWxlcy5jb200OGMwZGI2MDEy
+ YmVlY2FiMzBkNTE2MTcxOGE5YWQ0Zjk0NzA1ZTc5&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160523T134555Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160526T181202Z
+LAST-MODIFIED:20160526T181246Z
+DTSTAMP:20160526T181246Z
+UID:99546dc4-7a92-4c7f-ae17-c1c297e61cbd
+SUMMARY:Vacation
+CATEGORIES:Travel
+CATEGORIES:Vacation
+DTSTART;VALUE=DATE:20161106
+DTEND;VALUE=DATE:20161124
+TRANSP:TRANSPARENT
+DESCRIPTION:emirates.com cgw8f2
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160602T170545Z
+LAST-MODIFIED:20160602T175134Z
+DTSTAMP:20160602T175134Z
+UID:5bqbgq396962pdi7c0j3e0m2o0@google.com
+SUMMARY:Churn Decision - DW or no for May
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160603T193000Z
+DTEND:20160603T203000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=NWJxYmdxMzk2OTYycGRpN2MwajNlMG0ybzAgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tNTdiMWIyZGUxYjY2
+ MjNkN2YzMzc2MjA1ZWQ2MWJmNTcyNWI5NzgyOQ&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:1
+X-MOZ-RECEIVED-DTSTAMP:20160602T174717Z
+X-MOZ-GENERATION:1
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160607T170703Z
+LAST-MODIFIED:20160607T171409Z
+DTSTAMP:20160607T171409Z
+UID:vkb94g3c9vvfnihqbschj8p5a8@google.com
+SUMMARY:2016 05 Churn
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=erin.beil@hotschedules.com;PARTSTAT=NEEDS-ACTION;CUT
+ YPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:erin.beil@hotsch
+ edules.com
+ATTENDEE;RSVP=TRUE;CN=Jon Thollander;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDU
+ AL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jon.thollander@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=greg.gillins@hotschedules.com;PARTSTAT=NEEDS-ACTION;
+ CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:greg.gillins@
+ hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Justin Buckley;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDU
+ AL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:justin.buckley@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@redbookco
+ nnect.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIV
+ IDUAL;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotsche
+ dules.com
+ATTENDEE;RSVP=TRUE;CN=Brittney Wilganowski;PARTSTAT=NEEDS-ACTION;CUTYPE=IN
+ DIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:brittney.wilganowski@h
+ otschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160608T130000Z
+DTEND:20160608T140000Z
+DESCRIPTION:Per my email the purpose of this call is to confirm the May da
+ ta set is correct\, answer any questions\, and then validate all the next 
+ steps to get to final analysis/recommendation this week.\n\n1. Jon - Can y
+ ou please help us with a definitive answer on those accounts marked "not a
+ ware of any churn on this account". We need to be precise.\n2. Brittney/Ry
+ an - Can you please carve out time to review your respective customer toda
+ y please and return any adjustments/changes COB so the next stage of analy
+ sis can begin? I can't start cohort or analysis until this is done.\n3. Ma
+ tt/Ron - We need to understand the deltas with Qlik for May and determine 
+ if we can expedite May analysis with Qlik. Qlik has $55k for May but inclu
+ des OTB and Lasco which alone would put the comparable May Qlik value at $
+ 43. That alone puts the delta at $7k or 14%. We will have to be able to ex
+ plain the delta. Those 2 we know. What about the rest.\nView your event at
+  https://www.google.com/calendar/event?action=VIEW&eid=dmtiOTRnM2M5dnZmbml
+ ocWJzY2hqOHA1YTggcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjY2FybC5iZW5l
+ ZmllbEBob3RzY2hlZHVsZXMuY29tZGRiYzQwNzY0ZTFmZDUzNGM3ODU5MGU4YzQ5MmFjM2RmOW
+ Y0ZDFmNA&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:1
+X-MOZ-RECEIVED-DTSTAMP:20160607T170756Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160613T002035Z
+LAST-MODIFIED:20160613T120711Z
+DTSTAMP:20160613T120711Z
+UID:esld9h8mgik5dasfgdmj650jkg@google.com
+SUMMARY:Exec Churn Review Synch
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@redbookco
+ nnect.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160613T133000Z
+DTEND:20160613T143000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=ZXNsZDloOG1naWs1ZGFzZmdkbWo2NTBqa2cgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tZDgxZmQ5ZWE1MmUw
+ ODhmMDNmMTYwZjNjOGEyMWM3MTNhNDJlYzE1ZQ&ctz=America/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:1
+X-MOZ-RECEIVED-DTSTAMP:20160613T002149Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160620T214818Z
+LAST-MODIFIED:20160621T133838Z
+DTSTAMP:20160621T133838Z
+UID:stfl64fs7rkscu4konnoe7sg60@google.com
+SUMMARY:May Churn Review Actions/Notes
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160621T200000Z
+DTEND:20160621T210000Z
+DESCRIPTION:1. NEW rev issues in early cohorts this year - Ryan/Melissa\n2
+ . Final deltas between Qlik and NSM - needed for final approval to use Qli
+ k for June reporting\n3. MX and Print inclusion into the DW\nView your eve
+ nt at https://www.google.com/calendar/event?action=VIEW&eid=c3RmbDY0ZnM3cm
+ tzY3U0a29ubm9lN3NnNjAgcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjY2FybC5
+ iZW5lZmllbEBob3RzY2hlZHVsZXMuY29tYTQxNDQ3N2IxYTk4YTNiNjE4MDAxMDlmYzIyZGZhM
+ zU3OTlhMTAwYw&ctz=America/Port_of_Spain&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160620T214819Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160629T194844Z
+LAST-MODIFIED:20160629T200059Z
+DTSTAMP:20160629T200059Z
+UID:pf0tobf3n27bud83ppnq0rp570@google.com
+SUMMARY:Cube Replacement Stategy
+STATUS:CONFIRMED
+ORGANIZER;CN=Jason Gregory:mailto:jason.gregory@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=lucas.weidner@hotschedules.com;PARTSTAT=NEEDS-ACTION
+ ;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:lucas.weidne
+ r@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Neha Shah;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:neha.shah@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Dave Flynn;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:dave.flynn@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Jason Gregory;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jason.gregory@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160630T170000Z
+DTEND:20160630T172500Z
+DESCRIPTION:Hey Dave\, Lucas and Ron\, \n\nI'd like to kick off the discus
+ sion of replacing the cube. Can we please use this time to talk high-level
+  strategy and identify next steps. Feel free to invite whomever you deem n
+ ecessary.\n\nThanks\,\nJason\nView your event at https://www.google.com/ca
+ lendar/event?action=VIEW&eid=cGYwdG9iZjNuMjdidWQ4M3BwbnEwcnA1NzAgcm9uLnNhc
+ nZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjamFzb24uZ3JlZ29yeUBob3RzY2hlZHVsZXMuY2
+ 9tNzk0NTRhOWU4N2RjMDc2NDhhYjI2OTYyOTE0MTNiOGZjMzNmN2U0MQ&ctz=America/Port_
+ of_Spain&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160629T194844Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160713T165435Z
+LAST-MODIFIED:20160713T165541Z
+DTSTAMP:20160713T165541Z
+UID:o1u0b56m9uv0n4oao2br6pm83g@google.com
+SUMMARY:Discuss usage data & technical mappings
+STATUS:CONFIRMED
+ORGANIZER;CN=Laura McDonough:mailto:laura.mcdonough@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIV
+ IDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotsche
+ dules.com
+ATTENDEE;RSVP=TRUE;CN=Charles Bastian;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:charles.bastian@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedules.co
+ m
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160714T143000Z
+DTEND:20160714T150000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=bzF1MGI1Nm05dXYwbjRvYW8yYnI2cG04M2cgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzIjbGF1cmEubWNkb25vdWdoQGhvdHNjaGVkdWxlcy5jb21kMGFmMjFiNWMx
+ N2U1ZTI1ZTBmYWZkYTNhZDRkODc3MmY2NTljZTcx&ctz=America/Port_of_Spain&hl=en.
+ 
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160713T165436Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160715T024743Z
+LAST-MODIFIED:20160715T113726Z
+DTSTAMP:20160715T113726Z
+UID:k5v5ep4jmu90f1kn2dqd8ultn4@google.com
+SUMMARY:Natero Fields (Working Session)
+STATUS:CONFIRMED
+ORGANIZER;CN=Christin Eiserloh:mailto:christin.eiserloh@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=AUS-4th-Barton Springs-17;PARTSTAT=NEEDS-ACTION;CUTY
+ PE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:redbookconnect.co
+ m_2d3137393832383035363433@resource.calendar.google.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160718T150000Z
+DTEND:20160718T160000Z
+DESCRIPTION:*LM = optional*\n\nHi all\,\n\nThe CSMs identified fields of i
+ mportance to a CSM platform back in March/April and then Charles/Ron worke
+ d to get these fields into the data warehouse where we could send them ove
+ r to a CSM platform provider.  Now that we finalized on Natero\, we know t
+ he location of most of the fields but there are a few stragglers that we w
+ ant to discuss with this team.  \n\nMelissa --> financial fields will need
+  to be *acurately* summed\, then exported\nRyan--> I'd like your input on 
+ how CSMs/CSAs use certain fields on the front lines\n\nThis is meant to be
+  a working session and this is the spreadsheet that Charles is capturing t
+ he fields/DW table names\, etc.  Per Laura\, Charles just needs the output
+  of this working session\, the table name where he can grab the requested 
+ data.  We'll also capture any items that need Natero input or guidance!\n\
+ nSee tab named "DW->Natero_Mapping"\nThere are multiple types of records\,
+  "Account"\, "Account User"\, "Account Contact"\, "Invoice Statements"\, "
+ Notes"\, "Custom Fields"\nhttps://docs.google.com/a/redbookconnect.com/spr
+ eadsheets/d/1UG5Ql5kEuh_gxkKKLsUSG6LDIdnskEEQUeCJPjyfwKc/edit?usp=sharing\
+ n\nThanks all!\nChristin\n\nView your event at https://www.google.com/cale
+ ndar/event?action=VIEW&eid=azV2NWVwNGptdTkwZjFrbjJkcWQ4dWx0bjQgcm9uLnNhcnZ
+ lckBob3RzY2hlZHVsZXMuY29t&tok=MzQjY2hyaXN0aW4uZWlzZXJsb2hAaG90c2NoZWR1bGVz
+ LmNvbTczNjJlZWU4MDAzMWY1M2E3ZGViMDMzZjQwMWQ1ZjI1NmJmZWI5Y2E&ctz=America/Po
+ rt_of_Spain&hl=en.
+LOCATION:AUS-4th-Barton Springs-17
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160715T024743Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160718T160543Z
+LAST-MODIFIED:20160718T160606Z
+DTSTAMP:20160718T160606Z
+UID:cfipj71vad8iovn66gaekkpjqo@google.com
+SUMMARY:Natero Fields (Working Session)
+STATUS:CONFIRMED
+ORGANIZER;CN=Christin Eiserloh:mailto:christin.eiserloh@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Charles Bastian;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:charles.bastian@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=AUS-4th-Jacob's Well-5;PARTSTAT=NEEDS-ACTION;CUTYPE=
+ INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:redbookconnect.com_2
+ d32393935333034362d3536@resource.calendar.google.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160719T150000Z
+DTEND:20160719T163000Z
+DESCRIPTION:continue working through fields for Natero.  I booked 1.5 hrs 
+ based on Monday's progress\, we can adjust as needed\n\nSee tab named "DW-
+ >Natero_Mapping"\nThere are multiple types of records\, "Account"\, "Accou
+ nt User"\, "Account Contact"\, "Invoice Statements"\, "Notes"\, "Custom Fi
+ elds"\nhttps://docs.google.com/a/redbookconnect.com/spreadsheets/d/1UG5Ql5
+ kEuh_gxkKKLsUSG6LDIdnskEEQUeCJPjyfwKc/edit?usp=sharing\nView your event at
+  https://www.google.com/calendar/event?action=VIEW&eid=Y2ZpcGo3MXZhZDhpb3Z
+ uNjZnYWVra3BqcW8gcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzQjY2hyaXN0aW4u
+ ZWlzZXJsb2hAaG90c2NoZWR1bGVzLmNvbWMwMzViMjI2MzZiNDIwYjdlMGY4MmI3M2M0MjNjYT
+ dlODdlODc0NmI&ctz=America/Port_of_Spain&hl=en.
+LOCATION:AUS-4th-Jacob's Well-5
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160718T160544Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160719T165456Z
+LAST-MODIFIED:20160719T170030Z
+DTSTAMP:20160719T170030Z
+UID:7ve566leneb9asdls1eg0m41t0@google.com
+SUMMARY:Cohort Synch and A Lye Requests Synch
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160719T180000Z
+DTEND:20160719T183000Z
+DESCRIPTION:Courtesy invite only for Matt as he's busy. \nView your event 
+ at https://www.google.com/calendar/event?action=VIEW&eid=N3ZlNTY2bGVuZWI5Y
+ XNkbHMxZWcwbTQxdDAgcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjY2FybC5iZW
+ 5lZmllbEBob3RzY2hlZHVsZXMuY29tYjQ1MDEyMzg0MTQ4OGU2YWU0NzM3MDBkZWEwOTlkNjUz
+ NTEzNjY0MQ&ctz=America/Port_of_Spain&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160719T165456Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160726T193724Z
+LAST-MODIFIED:20160726T194502Z
+DTSTAMP:20160726T194502Z
+UID:3fqt0ljo6kitf6stdl3fjj0fig@google.com
+SUMMARY:Natero Pulse Check
+STATUS:CONFIRMED
+ORGANIZER;CN=Christin Eiserloh:mailto:christin.eiserloh@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Charles Bastian;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:charles.bastian@hotschedule
+ s.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160727T140000Z
+DTEND:20160727T143000Z
+DESCRIPTION:Charles is back staring 7/27\, let's circle up on:\n-Status of
+  DW field/table names\n-Usage data per product --> Natero\n-Natero's appro
+ ach to capturing the product catalog <--> customer mappings\nView your eve
+ nt at https://www.google.com/calendar/event?action=VIEW&eid=M2ZxdDBsam82a2
+ l0ZjZzdGRsM2ZqajBmaWcgcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzQjY2hyaXN
+ 0aW4uZWlzZXJsb2hAaG90c2NoZWR1bGVzLmNvbThlYjAzODA1MzNhODgxNmM1ZmIwMzU2M2UzO
+ GE1ZDFlZDhiMTU2NjU&ctz=America/Port_of_Spain&hl=en.
+LOCATION:Hippie Hollow
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160726T193725Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160727T143434Z
+LAST-MODIFIED:20160727T143546Z
+DTSTAMP:20160727T143546Z
+UID:037938qutpskarunelbeg1dv84@google.com
+SUMMARY:Churn Data into Natero
+STATUS:CONFIRMED
+ORGANIZER;CN=Christin Eiserloh:mailto:christin.eiserloh@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=AUS-4th-Jacob's Well-5;PARTSTAT=NEEDS-ACTION;CUTYPE=
+ INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:redbookconnect.com_2
+ d32393935333034362d3536@resource.calendar.google.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160822T153000Z
+DTEND:20160822T163000Z
+DESCRIPTION:We need to gather the churn brain trust to discuss which data 
+ elements we think are the key fields to pipe over to Natero.  Although Nat
+ ero is flexible\, we'll overwhelm them if we send everything we collect in
+  the DW! \nView your event at https://www.google.com/calendar/event?action
+ =VIEW&eid=MDM3OTM4cXV0cHNrYXJ1bmVsYmVnMWR2ODQgcm9uLnNhcnZlckBob3RzY2hlZHVs
+ ZXMuY29t&tok=MzQjY2hyaXN0aW4uZWlzZXJsb2hAaG90c2NoZWR1bGVzLmNvbWM4MTAyMjgyZ
+ DU2MGZhMTg3Y2EzNjBjMTAyN2E0N2U4NWIyOTg0ZTQ&ctz=America/Port_of_Spain&hl=en
+ .
+LOCATION:AUS-4th-Jacob's Well-5
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160727T143435Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160727T203055Z
+LAST-MODIFIED:20160727T211101Z
+DTSTAMP:20160727T211101Z
+UID:0jtshlvr08m3ls384uop1ltqmk@google.com
+SUMMARY:Recontracting Meeting.
+STATUS:CONFIRMED
+ORGANIZER;CN=Jason Stutler:mailto:jason.stutler@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=lindsey.dillon@hotschedules.com;PARTSTAT=NEEDS-ACTIO
+ N;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:lindsey.dil
+ lon@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=Jason Stutler;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jason.stutler@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Jon Thollander;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDU
+ AL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jon.thollander@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Brittney Wilganowski;PARTSTAT=NEEDS-ACTION;CUTYPE=IN
+ DIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:brittney.wilganowski@h
+ otschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=erin.beil@hotschedules.com;PARTSTAT=NEEDS-ACTION;CUT
+ YPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:erin.beil@hotsch
+ edules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160802T190000Z
+DTEND:20160802T200000Z
+DESCRIPTION:Meeting to discuss streamlining the recontracting process and 
+ to explain the current steps necessary.\nView your event at https://www.go
+ ogle.com/calendar/event?action=VIEW&eid=MGp0c2hsdnIwOG0zbHMzODR1b3AxbHRxbW
+ sgcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjamFzb24uc3R1dGxlckBob3RzY2h
+ lZHVsZXMuY29tNmViOGE4NWFlNjY1MTNhZTcyNjkzYTAzMzYzMTA4MGI4N2E4MmI1Zg&ctz=Am
+ erica/Port_of_Spain&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160727T203359Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160803T170756Z
+LAST-MODIFIED:20160803T182140Z
+DTSTAMP:20160803T182140Z
+UID:im9ukkmpu2pk3019ph3p2j4h7k@google.com
+SUMMARY:Natero - review plan to pilot start on Sept 1
+STATUS:CONFIRMED
+ORGANIZER;CN=Laura McDonough:mailto:laura.mcdonough@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=AUS-4th-Barton Springs-17;PARTSTAT=NEEDS-ACTION;CUTY
+ PE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:redbookconnect.co
+ m_2d3137393832383035363433@resource.calendar.google.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Charles Bastian;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:charles.bastian@hotschedule
+ s.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160804T143000Z
+DTEND:20160804T150000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=aW05dWtrbXB1MnBrMzAxOXBoM3AyajRoN2sgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzIjbGF1cmEubWNkb25vdWdoQGhvdHNjaGVkdWxlcy5jb20wZmUyMmI4MTg1
+ NWE2M2E3YWNkYjlkMDY1MmUwZDU4YzkzNDliZjYy&ctz=America/Port_of_Spain&hl=en.
+ 
+LOCATION:AUS-4th-Barton Springs-17
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160803T173500Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160816T200600Z
+LAST-MODIFIED:20160816T201449Z
+DTSTAMP:20160816T201449Z
+UID:17eka7u7bp93i74s5k1m300168@google.com
+SUMMARY:Recontracting Opps in SF - Follow Up
+STATUS:CONFIRMED
+ORGANIZER;CN=Jason Stutler:mailto:jason.stutler@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Jason Stutler;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jason.stutler@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIV
+ IDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotsche
+ dules.com
+ATTENDEE;RSVP=TRUE;CN=lindsey.dillon@hotschedules.com;PARTSTAT=NEEDS-ACTIO
+ N;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:lindsey.dil
+ lon@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=Brittney Wilganowski;PARTSTAT=NEEDS-ACTION;CUTYPE=IN
+ DIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:brittney.wilganowski@h
+ otschedules.com
+ATTENDEE;RSVP=TRUE;CN=erin.beil@hotschedules.com;PARTSTAT=NEEDS-ACTION;CUT
+ YPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:erin.beil@hotsch
+ edules.com
+ATTENDEE;RSVP=TRUE;CN=AUS-3rd-The Paramount-16;PARTSTAT=NEEDS-ACTION;CUTYP
+ E=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:redbookconnect.com
+ _2d3336393634353733363438@resource.calendar.google.com
+ATTENDEE;RSVP=TRUE;CN=Jon Thollander;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDU
+ AL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jon.thollander@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160914T163000Z
+DTEND:20160914T170000Z
+DESCRIPTION:Hi all\,\n\nFollow up meeting to discuss recontracting opps in
+  SF\; this is to mainly discuss the progress of the recent changes made.\n
+ View your event at https://www.google.com/calendar/event?action=VIEW&eid=M
+ Tdla2E3dTdicDkzaTc0czVrMW0zMDAxNjggcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&to
+ k=MzAjamFzb24uc3R1dGxlckBob3RzY2hlZHVsZXMuY29tY2E2NjdiYjM1MjNkNDEzZThjNGJj
+ MTY0ODk3MjQ1ODJlYTY1OGVjZQ&ctz=America/Port_of_Spain&hl=en.
+LOCATION:AUS-3rd-The Paramount-16
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160816T200601Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160822T233559Z
+LAST-MODIFIED:20160823T105831Z
+DTSTAMP:20160823T105831Z
+UID:61f6ru0ua74dog5evmtc160v4s@google.com
+SUMMARY:Data Warehouse and data Classification
+STATUS:CONFIRMED
+ORGANIZER;CN=Tanya Howell:mailto:tanya.howell@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Tanya Howell;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;ROL
+ E=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tanya.howell@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160825T160000Z
+DTEND:20160825T170000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=NjFmNnJ1MHVhNzRkb2c1ZXZtdGMxNjB2NHMgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MjkjdGFueWEuaG93ZWxsQGhvdHNjaGVkdWxlcy5jb202NGE3MDc4NzE0NTNk
+ ZDk1MTQxNTI5YWRmOWVjN2M1YTMxZTAyYTE2&ctz=America/Port_of_Spain&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160822T233600Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160830T205417Z
+LAST-MODIFIED:20160830T210449Z
+DTSTAMP:20160830T210449Z
+UID:ob7vce54nnf6sk3rt6jotc4svs@google.com
+SUMMARY:Natero "Count Down to Pilot" Check Point
+STATUS:CONFIRMED
+ORGANIZER;CN=Christin Eiserloh:mailto:christin.eiserloh@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Charles Bastian;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:charles.bastian@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160831T150000Z
+DTEND:20160831T153000Z
+DESCRIPTION:Let's level set on the outstanding data elements for Natero as
+  we near the start of the pilot with the CSM Team.  \n\nOutstanding data n
+ eeded for Pilot:\n-Critical SFDC/NS/DW Fields\n-Application Usage Data fro
+ m Sumo/DW\nView your event at https://www.google.com/calendar/event?action
+ =VIEW&eid=b2I3dmNlNTRubmY2c2szcnQ2am90YzRzdnMgcm9uLnNhcnZlckBob3RzY2hlZHVs
+ ZXMuY29t&tok=MzQjY2hyaXN0aW4uZWlzZXJsb2hAaG90c2NoZWR1bGVzLmNvbWQ0Mjk4NTk2O
+ WE5MmMyZWYxMWZhZjM2ZTliZjA5MzRlYTBjMzU4YTM&ctz=America/Port_of_Spain&hl=en
+ .
+LOCATION:Hippie Hollow
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160830T205417Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160920T165520Z
+LAST-MODIFIED:20160920T165806Z
+DTSTAMP:20160920T165806Z
+UID:98ch0fgruhu0otjfvefni6rprc@google.com
+SUMMARY:Database Weekly Update
+STATUS:CONFIRMED
+ORGANIZER;CN=Matthew Woodings:mailto:matthew.woodings@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=kokass.angeles@hotschedules.com;PARTSTAT=NEEDS-ACTIO
+ N;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:kokass.ange
+ les@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Santhosh Cherukula;PARTSTAT=NEEDS-ACTION;CUTYPE=INDI
+ VIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:santhosh.cherukula@hotsc
+ hedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160923T180000Z
+DTEND:20160923T183000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=OThjaDBmZ3J1aHUwb3RqZnZlZm5pNnJwcmMgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzMjbWF0dGhldy53b29kaW5nc0Bob3RzY2hlZHVsZXMuY29tN2NlZWU4OTE4
+ YWFkOWVmMGE0YjZhOGJmMjBiMTdhMWYwZTZmNjVmYw&ctz=America/Port_of_Spain&hl=en
+ .
+LOCATION:Online
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160920T165521Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160921T152316Z
+LAST-MODIFIED:20160921T152937Z
+DTSTAMP:20160921T152937Z
+UID:7afan4ndlq5tttu8u6a6l52oa0@google.com
+SUMMARY:DW Sync Up
+STATUS:CONFIRMED
+ORGANIZER;CN=Laura McDonough:mailto:laura.mcdonough@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Christin Eiserloh;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIV
+ IDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin.eiserloh@hotsche
+ dules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160921T190000Z
+DTEND:20160921T193000Z
+DESCRIPTION:since I'm out tomorrow afternoon.\n\nhttps://docs.google.com/a
+ /natero.com/spreadsheets/d/1mbmLUZrC_-oQvfWiwMNAfqt3ud9Gs2r62ork3_loHIE/ed
+ it?usp=sharing\nView your event at https://www.google.com/calendar/event?a
+ ction=VIEW&eid=N2FmYW40bmRscTV0dHR1OHU2YTZsNTJvYTAgcm9uLnNhcnZlckBob3RzY2h
+ lZHVsZXMuY29t&tok=MzIjbGF1cmEubWNkb25vdWdoQGhvdHNjaGVkdWxlcy5jb21lOTBjOWFl
+ ZDcxZjM4MjFkZTE2MmFmMWNiNzE2N2IxM2QwYjI1Yjcz&ctz=America/Port_of_Spain&hl=
+ en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160921T152317Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160901T204557Z
+LAST-MODIFIED:20160922T171600Z
+DTSTAMP:20160922T171600Z
+UID:dlh2a808e0rgmn1kl1brcjqb64@google.com
+SUMMARY:Churn for Print Analysis Idea
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedu
+ les.com
+ATTENDEE;RSVP=TRUE;CN=bruce.guthals@hotschedules.com;PARTSTAT=NEEDS-ACTION
+ ;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:bruce.guthal
+ s@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Tom Frengillo;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUA
+ L;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:tom.frengillo@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20161025T190000Z
+DTEND:20161025T200000Z
+DESCRIPTION:Hi - Ron is flat out at the moment. As such I'm pushing this o
+ ut\, but this in no way diminishes it's importance.\n\nHi - Speaking with 
+ Tom\, I'd like to explore (bandwidth allowing) knowledge sharing from you 
+ Matt and Ron to Bruce and Tom on dumping out SQL or other file types from 
+ UA and putting them out for Bruce to work into some basic dimensions and m
+ easures. Then I can work with Tom to slice and dice on the file from UA us
+ ing those dimensions and measures in QlikSense (either Desktop or the Clou
+ d whatever makes sense) to provide executive analysis and potentially prov
+ e out a case for a UA integration into the DW.\n\nBenefits: \n1. Extending
+  Qlik expertise which really lies with you Matt and Ron only at this point
+ .\n2. Potentially expediting the analysis of paper churn\n3. Setting up co
+ mmon tools between SaaS and print even if we don't integrate UA into the D
+ W any time soon\n\nAppreciate your support.\n\nView your event at https://
+ www.google.com/calendar/event?action=VIEW&eid=ZGxoMmE4MDhlMHJnbW4xa2wxYnJj
+ anFiNjQgcm9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob
+ 3RzY2hlZHVsZXMuY29tMjU5Y2Y3M2Q0M2JiYTliNDk0YmY3NTUxYzdhY2E2ZmMzZjNlMTE5ZA&
+ ctz=America/Port_of_Spain&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:2
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:2
+X-MOZ-RECEIVED-DTSTAMP:20160922T164037Z
+X-MOZ-GENERATION:1
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160925T145626Z
+LAST-MODIFIED:20160925T151805Z
+DTSTAMP:20160925T151805Z
+UID:ju2ot2i41f3b3fcp7o7l44ii5c@google.com
+SUMMARY:Sync Up
+STATUS:CONFIRMED
+ORGANIZER;CN=Laura McDonough:mailto:laura.mcdonough@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Laura McDonough;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;
+ ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:laura.mcdonough@hotschedules.co
+ m
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART:20160926T143000Z
+DTEND:20160926T150000Z
+DESCRIPTION:View your event at https://www.google.com/calendar/event?actio
+ n=VIEW&eid=anUyb3QyaTQxZjNiM2ZjcDdvN2w0NGlpNWMgcm9uLnNhcnZlckBob3RzY2hlZHV
+ sZXMuY29t&tok=MzIjbGF1cmEubWNkb25vdWdoQGhvdHNjaGVkdWxlcy5jb21jMzUyNjU5ZWZm
+ NTI2NTU3OWQzZjVjNzA1MzhhZjkwYzAwNWVkNmQ4&ctz=America/Port_of_Spain&hl=en.
+ 
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:0
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:0
+X-MOZ-RECEIVED-DTSTAMP:20160925T145627Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20170403T155355Z
+LAST-MODIFIED:20161016T202541Z
+DTSTAMP:20161016T202541Z
+UID:44030bb8-3286-4081-88e8-481d3f819fb9
+SUMMARY:Your Itinerary: AUS-STX\, GNXV3E
+PRIORITY:1
+STATUS:CONFIRMED
+CATEGORIES:Travel
+DTSTART:20160611T054800
+DTEND:20160611T134800
+DESCRIPTION:Review check-in requirements for your airport at http://www.de
+ lta.com/traveling_checkin/itineraries_checkin/requirements/index.jsp\n\nIt
+ inerary Details:\n\nDelta Air Lines\, Inc.\nFlight: 1984\nDeparts: Austin-
+ Bergstrom International on Sat\, 11 Jun 2016 5:48 AM\nArrives: Hartsfield-
+ Jackson Atlanta Intl on Sat\, 11 Jun 2016 9:04 AM\n\nDelta Air Lines\, Inc
+ .\nFlight: 735\nDeparts: Hartsfield-Jackson Atlanta Intl on Sat\, 11 Jun 2
+ 016 10:55 AM\nArrives: Henry E Rohlsen Arpt on Sat\, 11 Jun 2016 2:48 PM\n
+ \nHyannis Air Service\, Inc. d b a Cape Air 9K 2601\nFlight: 2601\nDeparts
+ : Henry E Rohlsen Arpt on Wed\, 26 Oct 2016 12:18 PM\nArrives: Luis Munoz 
+ Marin Intl Arpt on Wed\, 26 Oct 2016 1:01 PM\n\nDelta Air Lines\, Inc.\nFl
+ ight: 506\nDeparts: Luis Munoz Marin Intl Arpt on Wed\, 26 Oct 2016 2:14 P
+ M\nArrives: Hartsfield-Jackson Atlanta Intl on Wed\, 26 Oct 2016 6:04 PM\n
+ \nDelta Air Lines\, Inc.\nFlight: 1309\nDeparts: Hartsfield-Jackson Atlant
+ a Intl on Wed\, 26 Oct 2016 7:15 PM\nArrives: Austin-Bergstrom Internation
+ al on Wed\, 26 Oct 2016 8:46 PM\n\nAll times are local.
+LOCATION:Austin-Bergstrom International
+SEQUENCE:0
+URL:http://www.delta.com/traveling_checkin/itineraries_checkin/requirement
+ s/index.jsp
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1D
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20170403T155355Z
+LAST-MODIFIED:20161016T202552Z
+DTSTAMP:20161016T202552Z
+UID:df82a9cd-c9f3-40a2-af0c-1c21cf20af65
+SUMMARY:Your Itinerary: AUS-STX\, GNXV3E
+PRIORITY:1
+STATUS:CONFIRMED
+CATEGORIES:Travel
+DTSTART:20160611T054800
+DTEND:20160611T134800
+DESCRIPTION:Review check-in requirements for your airport at http://www.de
+ lta.com/traveling_checkin/itineraries_checkin/requirements/index.jsp\n\nIt
+ inerary Details:\n\nDelta Air Lines\, Inc.\nFlight: 1984\nDeparts: Austin-
+ Bergstrom International on Sat\, 11 Jun 2016 5:48 AM\nArrives: Hartsfield-
+ Jackson Atlanta Intl on Sat\, 11 Jun 2016 9:04 AM\n\nDelta Air Lines\, Inc
+ .\nFlight: 735\nDeparts: Hartsfield-Jackson Atlanta Intl on Sat\, 11 Jun 2
+ 016 10:55 AM\nArrives: Henry E Rohlsen Arpt on Sat\, 11 Jun 2016 2:48 PM\n
+ \nHyannis Air Service\, Inc. d b a Cape Air 9K 2601\nFlight: 2601\nDeparts
+ : Henry E Rohlsen Arpt on Wed\, 26 Oct 2016 12:18 PM\nArrives: Luis Munoz 
+ Marin Intl Arpt on Wed\, 26 Oct 2016 1:01 PM\n\nDelta Air Lines\, Inc.\nFl
+ ight: 506\nDeparts: Luis Munoz Marin Intl Arpt on Wed\, 26 Oct 2016 2:14 P
+ M\nArrives: Hartsfield-Jackson Atlanta Intl on Wed\, 26 Oct 2016 6:04 PM\n
+ \nDelta Air Lines\, Inc.\nFlight: 1309\nDeparts: Hartsfield-Jackson Atlant
+ a Intl on Wed\, 26 Oct 2016 7:15 PM\nArrives: Austin-Bergstrom Internation
+ al on Wed\, 26 Oct 2016 8:46 PM\n\nAll times are local.
+LOCATION:Austin-Bergstrom International
+SEQUENCE:0
+URL:http://www.delta.com/traveling_checkin/itineraries_checkin/requirement
+ s/index.jsp
+X-MOZ-GENERATION:1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1D
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20170403T155355Z
+LAST-MODIFIED:20161016T202611Z
+DTSTAMP:20161016T202611Z
+UID:562a2a0d-0fe9-47e7-8bcd-7bb22454c8a3
+SUMMARY:Your Itinerary: AUS-STX\, GNXV3E
+PRIORITY:1
+STATUS:CONFIRMED
+CATEGORIES:Travel
+X-MOZ-LASTACK:20160610T115255Z
+DTSTART:20160611T054800
+DTEND:20160611T134800
+DESCRIPTION:Review check-in requirements for your airport at http://www.de
+ lta.com/traveling_checkin/itineraries_checkin/requirements/index.jsp\n\nIt
+ inerary Details:\n\nDelta Air Lines\, Inc.\nFlight: 1984\nDeparts: Austin-
+ Bergstrom International on Sat\, 11 Jun 2016 5:48 AM\nArrives: Hartsfield-
+ Jackson Atlanta Intl on Sat\, 11 Jun 2016 9:04 AM\n\nDelta Air Lines\, Inc
+ .\nFlight: 735\nDeparts: Hartsfield-Jackson Atlanta Intl on Sat\, 11 Jun 2
+ 016 10:55 AM\nArrives: Henry E Rohlsen Arpt on Sat\, 11 Jun 2016 2:48 PM\n
+ \nHyannis Air Service\, Inc. d b a Cape Air 9K 2601\nFlight: 2601\nDeparts
+ : Henry E Rohlsen Arpt on Wed\, 26 Oct 2016 12:18 PM\nArrives: Luis Munoz 
+ Marin Intl Arpt on Wed\, 26 Oct 2016 1:01 PM\n\nDelta Air Lines\, Inc.\nFl
+ ight: 506\nDeparts: Luis Munoz Marin Intl Arpt on Wed\, 26 Oct 2016 2:14 P
+ M\nArrives: Hartsfield-Jackson Atlanta Intl on Wed\, 26 Oct 2016 6:04 PM\n
+ \nDelta Air Lines\, Inc.\nFlight: 1309\nDeparts: Hartsfield-Jackson Atlant
+ a Intl on Wed\, 26 Oct 2016 7:15 PM\nArrives: Austin-Bergstrom Internation
+ al on Wed\, 26 Oct 2016 8:46 PM\n\nAll times are local.
+LOCATION:Austin-Bergstrom International
+SEQUENCE:0
+URL:http://www.delta.com/traveling_checkin/itineraries_checkin/requirement
+ s/index.jsp
+X-MOZ-GENERATION:2
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1D
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20161025T092705Z
+LAST-MODIFIED:20161026T181803Z
+DTSTAMP:20161026T181803Z
+UID:769fa158-0b42-4cbd-a162-993128508938
+SUMMARY:Your Itinerary: STX-AUS\, GNXV3E
+PRIORITY:1
+STATUS:CONFIRMED
+CATEGORIES:Travel
+X-MOZ-LASTACK:20161026T181803Z
+DTSTART:20161026T111800
+DTEND:20161026T204600
+DESCRIPTION:Review check-in requirements for your airport at http://www.de
+ lta.com/traveling_checkin/itineraries_checkin/requirements/index.jsp\n\nIt
+ inerary Details:\n\nDelta Air Lines\, Inc.\nFlight: 1984\nDeparts: Austin-
+ Bergstrom International on Sat\, 11 Jun 2016 5:48 AM\nArrives: Hartsfield-
+ Jackson Atlanta Intl on Sat\, 11 Jun 2016 9:04 AM\n\nDelta Air Lines\, Inc
+ .\nFlight: 735\nDeparts: Hartsfield-Jackson Atlanta Intl on Sat\, 11 Jun 2
+ 016 10:55 AM\nArrives: Henry E Rohlsen Arpt on Sat\, 11 Jun 2016 2:48 PM\n
+ \nHyannis Air Service\, Inc. d b a Cape Air 9K 2601\nFlight: 2601\nDeparts
+ : Henry E Rohlsen Arpt on Wed\, 26 Oct 2016 12:18 PM\nArrives: Luis Munoz 
+ Marin Intl Arpt on Wed\, 26 Oct 2016 1:01 PM\n\nDelta Air Lines\, Inc.\nFl
+ ight: 506\nDeparts: Luis Munoz Marin Intl Arpt on Wed\, 26 Oct 2016 2:14 P
+ M\nArrives: Hartsfield-Jackson Atlanta Intl on Wed\, 26 Oct 2016 6:04 PM\n
+ \nDelta Air Lines\, Inc.\nFlight: 1309\nDeparts: Hartsfield-Jackson Atlant
+ a Intl on Wed\, 26 Oct 2016 7:15 PM\nArrives: Austin-Bergstrom Internation
+ al on Wed\, 26 Oct 2016 8:46 PM\n\nAll times are local.
+LOCATION:Henry E Rohlsen Arpt
+SEQUENCE:0
+URL:http://www.delta.com/traveling_checkin/itineraries_checkin/requirement
+ s/index.jsp
+X-MOZ-GENERATION:2
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:-P1D
+DESCRIPTION:Reminder
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160113T014059Z
+LAST-MODIFIED:20160125T140003Z
+DTSTAMP:20160125T140003Z
+UID:c91e4ffa-ce11-4955-9e12-cb4eb3316573
+SUMMARY:Morning Celebrex
+RRULE:FREQ=DAILY;UNTIL=20160126T021500Z
+CATEGORIES:Pills
+X-MOZ-LASTACK:20160125T140003Z
+DTSTART;TZID=America/Chicago:20160112T080000
+DTEND;TZID=America/Chicago:20160112T080000
+TRANSP:OPAQUE
+X-MOZ-GENERATION:14
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:PT0S
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160113T013625Z
+LAST-MODIFIED:20160127T024110Z
+DTSTAMP:20160127T024110Z
+UID:8cb03136-aa3e-4628-8cb9-a633f7572368
+SUMMARY:Evening Celebrex
+RRULE:FREQ=DAILY;UNTIL=20160127T024500Z
+CATEGORIES:Pills
+X-MOZ-LASTACK:20160127T024110Z
+DTSTART;TZID=America/Chicago:20160112T200000
+DTEND;TZID=America/Chicago:20160112T200000
+TRANSP:OPAQUE
+X-MOZ-GENERATION:15
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:PT0S
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160113T014218Z
+LAST-MODIFIED:20160202T140140Z
+DTSTAMP:20160202T140140Z
+UID:50a09b32-5f00-42a0-a3f4-6e6829e9a350
+SUMMARY:Aspirin
+RRULE:FREQ=DAILY;UNTIL=20160202T140000Z
+CATEGORIES:Pills
+X-MOZ-LASTACK:20160202T140003Z
+DTSTART;TZID=America/Chicago:20160112T080000
+DTEND;TZID=America/Chicago:20160112T080000
+TRANSP:OPAQUE
+X-MOZ-GENERATION:23
+SEQUENCE:1
+BEGIN:VALARM
+ACTION:DISPLAY
+TRIGGER;VALUE=DURATION:PT0S
+DESCRIPTION:Default Mozilla Description
+END:VALARM
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160411T223741Z
+LAST-MODIFIED:20160419T162009Z
+DTSTAMP:20160419T162009Z
+UID:v57m7sr053q886gjnpouk3lkos@google.com
+SUMMARY:MRR Revenue and Churn Review
+STATUS:CONFIRMED
+ORGANIZER;CN=Carl Benefiel:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=AUS-Antone's-10;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:redbookconnect.com_2d363131
+ 36383530343236@resource.calendar.google.com
+ATTENDEE;RSVP=TRUE;CN=David Collier;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUA
+ L;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:dave.collier@hotschedules.com
+ 
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVI
+ DUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@redbookco
+ nnect.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=christin.eiserloh@hotschedules.com;PARTSTAT=NEEDS-AC
+ TION;CUTYPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:christin
+ .eiserloh@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Carl Benefiel;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL;RO
+ LE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:carl.benefiel@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ryan Clark;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ryan.clark@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Jon Thollander;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDU
+ AL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:jon.thollander@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Robert Cortese;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDU
+ AL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:robert.cortese@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=brooke.hamrick@hotschedules.com;PARTSTAT=NEEDS-ACTIO
+ N;CUTYPE=INDIVIDUAL;ROLE=OPT-PARTICIPANT;X-NUM-GUESTS=0:mailto:brooke.hamr
+ ick@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Melissa Dragonu;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVID
+ UAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:melissa.dragonu@hotschedule
+ s.com
+ATTENDEE;RSVP=TRUE;CN=erin.beil@hotschedules.com;PARTSTAT=NEEDS-ACTION;CUT
+ YPE=INDIVIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0;X-RESPONSE-COMMENT="I&#
+ 39\;ll be joining late\, around 9am":mailto:erin.beil@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+RRULE:FREQ=WEEKLY;BYDAY=TH
+DTSTART;TZID=America/Denver:20160414T073000
+DTEND;TZID=America/Denver:20160414T083000
+DESCRIPTION:Hi All - This is the weekly revenue dashboard review and Churn
+  confirmation. Churn will be the focus the first week as a test case and w
+ e'll adjust from there. But we all need to work through this quickly so we
+  can all stand behind this as system of record for revenue/revenue rep/exp
+ ansion/upsell/churn and eventually much more.\n\nDave/Brooke - You're invi
+ tation is optional. \n\nAgenda:\n1. Review the data accuracy to drive conf
+ idence and buy in on the data.\n2. Error analysis: Is it data entry in net
+ suite (finance) salesforce (CSM/Sales) or something in the calculations\n3
+ . Action - what does Churn tell us relative to comp plans\, implementation
+  process\, bundling etc?\n4. Data presentation - what can be improved with
+  the charting and visuals?\n5. What are the priorities for additional view
+ s/analysis/comparative data points?\nView your event at https://www.google
+ .com/calendar/event?action=VIEW&eid=djU3bTdzcjA1M3E4ODZnam5wb3VrM2xrb3Mgcm
+ 9uLnNhcnZlckBob3RzY2hlZHVsZXMuY29t&tok=MzAjY2FybC5iZW5lZmllbEBob3RzY2hlZHV
+ sZXMuY29tNmRlOTMyOTFlNzEyOWZhMDBhMWM4YzI5Y2ZmOWE4OWE5Mjg5ZmI5Mw&ctz=Americ
+ a/Chicago&hl=en.
+X-LIC-ERROR:No value for LOCATION property. Removing entire property:
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:1
+X-MOZ-RECEIVED-DTSTAMP:20160419T161828Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20160720T123029Z
+LAST-MODIFIED:20160720T123029Z
+DTSTAMP:20160720T123029Z
+UID:9tbroe6pspf2kpnchpim8d65nc_R20151013T160000@google.com
+RDATE;VALUE=DATE-TIME:20160719T160000Z
+DTSTART;TZID=America/Chicago:20160719T110000
+DTEND;TZID=America/Chicago:20160719T110000
+X-MOZ-FAKED-MASTER:1
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20150330T190516Z
+LAST-MODIFIED:20160720T123039Z
+DTSTAMP:20160720T123039Z
+UID:9tbroe6pspf2kpnchpim8d65nc_R20151013T160000@google.com
+SUMMARY:Database Weekly
+STATUS:CONFIRMED
+RECURRENCE-ID;TZID=America/Chicago:20160719T110000
+ORGANIZER;CN=Matthew Woodings:mailto:matthew.woodings@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Santhosh Cherukula;PARTSTAT=NEEDS-ACTION;CUTYPE=INDI
+ VIDUAL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:santhosh.cherukula@redbo
+ okconnect.com
+ATTENDEE;RSVP=TRUE;CN=Kokass Angeles;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDU
+ AL;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:kokass.angeles@redbookconnec
+ t.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedules.
+ com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+DTSTART;TZID=America/Chicago:20160720T133000
+DTEND;TZID=America/Chicago:20160720T143000
+DESCRIPTION:Let's talk roles responsibilities and scope.\nView your event 
+ at https://www.google.com/calendar/event?action=VIEW&eid=OXRicm9lNnBzcGYya
+ 3BuY2hwaW04ZDY1bmNfMjAxNjA3MTlUMTYwMDAwWiByb24uc2FydmVyQGhvdHNjaGVkdWxlcy5
+ jb20&tok=MzMjbWF0dGhldy53b29kaW5nc0Bob3RzY2hlZHVsZXMuY29tOWE2MTYwMmJkMTNhY
+ jQxYjM2YTk0Yzg0Yzk1YTQ1MTRmZGI1ODRiYw&ctz=America/Port_of_Spain&hl=en.
+LOCATION:Matt Office and Remote
+SEQUENCE:2
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:2
+X-MOZ-RECEIVED-DTSTAMP:20160719T211416Z
+END:VEVENT
+
+BEGIN:VEVENT
+CREATED:20150402T150308Z
+LAST-MODIFIED:20160926T141325Z
+DTSTAMP:20160926T141325Z
+UID:9u4jqbuje5nn9ugi2mkuhkb6bo@google.com
+SUMMARY:Ron Weekly
+STATUS:CONFIRMED
+ORGANIZER;CN=Matthew Woodings:mailto:matthew.woodings@hotschedules.com
+ATTENDEE;RSVP=TRUE;CN=Matthew Woodings;PARTSTAT=ACCEPTED;CUTYPE=INDIVIDUAL
+ ;ROLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:matthew.woodings@hotschedules.
+ com
+ATTENDEE;RSVP=TRUE;CN=Ron Sarver;PARTSTAT=NEEDS-ACTION;CUTYPE=INDIVIDUAL;R
+ OLE=REQ-PARTICIPANT;X-NUM-GUESTS=0:mailto:ron.sarver@hotschedules.com
+ATTENDEE;CN=Ron;PARTSTAT=ACCEPTED;ROLE=REQ-PARTICIPANT:mailto:ron.sarver@c
+ onsultrs.com
+RRULE:FREQ=WEEKLY;UNTIL=20160921T143000Z;BYDAY=WE
+DTSTART;TZID=America/Chicago:20151104T093000
+DTEND;TZID=America/Chicago:20151104T100000
+DESCRIPTION:Weekly catchup\nView your event at https://www.google.com/cale
+ ndar/event?action=VIEW&eid=OXU0anFidWplNW5uOXVnaTJta3Voa2I2Ym8gcm9uLnNhcnZ
+ lckBob3RzY2hlZHVsZXMuY29t&tok=MzMjbWF0dGhldy53b29kaW5nc0Bob3RzY2hlZHVsZXMu
+ Y29tZjlkMDkxM2VlZjMzMGU2YTQ5MTJiOWVlNjhiY2ZkN2IwZWZjMzc2Yw&ctz=America/Por
+ t_of_Spain&hl=en.
+LOCATION:Matt's Office
+SEQUENCE:1
+TRANSP:OPAQUE
+X-MOZ-RECEIVED-SEQUENCE:1
+X-MOZ-RECEIVED-DTSTAMP:20160926T141146Z
+X-MOZ-GENERATION:2
+END:VEVENT
+END:VCALENDAR
